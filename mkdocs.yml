@@ -1,0 +1,40 @@
+site_name: Our Awesome Blog
+site_description: A blogging site built with material for MkDocs
+
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: deep orange
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
+
+plugins:
+  - search
+  - blog:
+      blog_dir: .
+      archive_date_format: yyyy
+      archive_url_date_format: yyyy
+      categories_allowed:
+        - Tech
+        - life
+      post_url_format: "{slug}"
+  - tags:
+      tags_file: tags.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ayodejimicheal337-netizen
