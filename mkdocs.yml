@@ -1,4 +1,6 @@
+site_url: https://ayodejimicheal337-netizen.github.io/mkdocs-blog-demo2026/
 site_name: Our Awesome Blog
+
 site_description: A blogging site built with material for MkDocs
 
 theme:
