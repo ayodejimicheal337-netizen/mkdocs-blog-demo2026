@@ -10,7 +10,7 @@ Currently, I am building this site using **MkDocs** and the **Material theme**. 
 
 ## 📖 Latest Posts
 Check out my first thoughts here:
-* [My First Blog Post](My First Blog Post.md)
+* [My First Blog Post](posts/firstpost.md)
 
 ---
 *Feel free to leave a comment at the bottom of any post to say hi!*

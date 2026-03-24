@@ -2,13 +2,6 @@ site_url: https://ayodejimicheal337-netizen.github.io/mkdocs-blog-demo2026/
 site_name: Our Awesome Blog
 site_description: A blogging site built with material for MkDocs
 
-# Navigation - This tells GitHub which files to show in the menu
-nav:
-  - Home: index.md
-  - Archive: archive/index.md
-  - Categories: category/index.md
-  - Tags: tags.md
-  - First Post: My First Blog Post.md
 
 theme:
   name: material
